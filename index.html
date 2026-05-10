@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MeetMe | Premium Random Video Chat</title>
+    <meta
+      name="description"
+      content="MeetMe is a modern random video chat platform with interest matching, secure authentication, and premium UX."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="page">
+    <div class="ambient-layer" aria-hidden="true">
+      <span class="orb orb-1"></span>
+      <span class="orb orb-2"></span>
+      <span class="orb orb-3"></span>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <div class="container nav-content">
+        <a class="brand" href="#top" aria-label="MeetMe home">
+          <img class="brand-logo" src="./assets/logo.png" alt="MeetMe" />
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#features">Features</a>
+          <a href="#experience">Experience</a>
+          <a href="#testimonials">Stories</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn ghost" href="./pages/login.html">Log in</a>
+          <a class="btn primary" href="./pages/signup.html">Get started</a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Meet people in seconds</p>
+            <h1>
+              Premium random video chat, built for real conversations.
+            </h1>
+            <p class="lead">
+              MeetMe matches you with verified users using shared interests,
+              smart safety controls, and buttery-smooth video quality.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="./pages/signup.html">Create account</a>
+              <a class="btn subtle" href="#features">Explore features</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <h4>98k+</h4>
+                <span>Active members</span>
+              </div>
+              <div>
+                <h4>24/7</h4>
+                <span>Smart moderation</span>
+              </div>
+              <div>
+                <h4>120+</h4>
+                <span>Countries</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" data-reveal>
+            <div class="hero-card-header">
+              <div>
+                <p>Live preview</p>
+                <h3>Secure video rooms</h3>
+              </div>
+              <span class="status-pill">Encrypted</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="video-shell">
+                <div class="video-layer">
+                  <div class="pulse-ring"></div>
+                  <div class="pulse-ring delay"></div>
+                  <img class="video-logo" src="./assets/logo.png" alt="MeetMe" />
+                </div>
+              </div>
+              <div class="hero-card-stats">
+                <div>
+                  <h5>Avg. match</h5>
+                  <p>6.4s</p>
+                </div>
+                <div>
+                  <h5>Match quality</h5>
+                  <p>96%</p>
+                </div>
+                <div>
+                  <h5>Safety score</h5>
+                  <p>High</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust">
+        <div class="container trust-strip" data-reveal>
+          <div>
+            <span>Featured in</span>
+          </div>
+          <div class="trust-logos">
+            <span>Techwave</span>
+            <span>Bloomberg Edge</span>
+            <span>StudioX</span>
+            <span>Remote Daily</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">Platform features</p>
+            <h2>Built for serendipity, backed by safety.</h2>
+            <p>
+              Match smarter, connect faster, and stay in control with premium
+              moderation, realtime presence, and interest-based discovery.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card" data-reveal>
+              <h3>Interest matchmaking</h3>
+              <p>Choose topics and match with people who actually share them.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Verified identities</h3>
+              <p>Email verification and profile checks keep the community safe.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Realtime presence</h3>
+              <p>See who is online, typing, and ready to connect instantly.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Auto-reconnect</h3>
+              <p>Dropouts recover automatically with seamless reconnection.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Safety controls</h3>
+              <p>Report, block, and filter toxic behavior in one tap.</p>
+            </article>
+            <article class="feature-card" data-reveal>
+              <h3>Premium UX</h3>
+              <p>Glass UI, cinematic motion, and responsive layouts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="container experience-grid">
+          <div class="experience-media" data-reveal>
+            <div class="glass-panel">
+              <div class="panel-header">
+                <span class="dot live"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="panel-body">
+                <h3>MeetMe Rooms</h3>
+                <p>Join a queue or start instant 1:1 video chats.</p>
+                <div class="panel-badges">
+                  <span>Low latency</span>
+                  <span>HD video</span>
+                  <span>Smart skip</span>
+                </div>
+                <div class="panel-actions">
+                  <button class="btn ghost" type="button">Preview room</button>
+                  <button class="btn primary" type="button">Join queue</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-copy" data-reveal>
+            <p class="eyebrow">MeetMe experience</p>
+            <h2>Designed like a premium app, delivered on the web.</h2>
+            <p>
+              From login to live chat, every screen is crafted for speed and
+              clarity. A modern interaction model keeps you in control with
+              minimal friction.
+            </p>
+            <ul class="experience-list">
+              <li>Elegant onboarding and profile setup</li>
+              <li>Queue intelligence for faster matches</li>
+              <li>Adaptive bitrate video streaming</li>
+              <li>Fine-tuned audio and camera controls</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">Community stories</p>
+            <h2>Conversations that feel human again.</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card" data-reveal>
+              <p>
+                “MeetMe feels like a premium product. The matches are fast, and
+                the design makes me feel safe instantly.”
+              </p>
+              <div class="testimonial-meta">
+                <span class="avatar">JR</span>
+                <div>
+                  <h4>Jasmine Reed</h4>
+                  <span>Product Designer</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" data-reveal>
+              <p>
+                “I met my language partner in 90 seconds. The interest filters
+                are a game changer.”
+              </p>
+              <div class="testimonial-meta">
+                <span class="avatar">KA</span>
+                <div>
+                  <h4>Ken Adams</h4>
+                  <span>Remote Founder</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card" data-reveal>
+              <p>
+                “The video quality is crisp and the UI is gorgeous. It feels
+                like a real product, not a prototype.”
+              </p>
+              <div class="testimonial-meta">
+                <span class="avatar">ML</span>
+                <div>
+                  <h4>Maria Lopez</h4>
+                  <span>Community Lead</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container faq-grid">
+          <div class="faq-copy" data-reveal>
+            <p class="eyebrow">Frequently asked</p>
+            <h2>Everything you need to know.</h2>
+            <p>
+              MeetMe is launching with a safety-first, quality-first approach.
+              Access is available only after login to keep the community secure.
+            </p>
+          </div>
+          <div class="faq-list" data-reveal>
+            <details open>
+              <summary>Is MeetMe free?</summary>
+              <p>
+                MeetMe offers a free tier with premium upgrades for priority
+                matching and advanced filters.
+              </p>
+            </details>
+            <details>
+              <summary>Why do I need an account?</summary>
+              <p>
+                Verified accounts help enforce safety standards, reduce spam, and
+                allow you to build a profile for better matches.
+              </p>
+            </details>
+            <details>
+              <summary>How is my data protected?</summary>
+              <p>
+                We use secure authentication, encryption in transit, and
+                permissioned access via Supabase.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-card" data-reveal>
+          <div>
+            <h2>Ready to meet someone new?</h2>
+            <p>
+              Join the early community and unlock premium video chat rooms with
+              people who share your interests.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn primary" href="./pages/signup.html">Get started</a>
+            <a class="btn ghost" href="./pages/login.html">Log in</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#top">
+            <img class="brand-logo" src="./assets/logo.png" alt="MeetMe" />
+          </a>
+          <p>
+            A premium random video chat platform engineered for real
+            conversations.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h5>Platform</h5>
+            <a href="#features">Features</a>
+            <a href="#experience">Experience</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div>
+            <h5>Account</h5>
+            <a href="./pages/login.html">Login</a>
+            <a href="./pages/signup.html">Sign up</a>
+          </div>
+          <div>
+            <h5>Legal</h5>
+            <button class="link-button" type="button">Privacy</button>
+            <button class="link-button" type="button">Terms</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>2026 MeetMe. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
